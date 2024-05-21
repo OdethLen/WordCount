@@ -7,11 +7,9 @@ namespace WordCount
     public partial class Form1 : Form
     {
 
-        int WordCount;
         public Form1()
         {
             InitializeComponent();
-            WordCount = 0;
         }
 
         private void btnOpen_Click(object sender, EventArgs e)
